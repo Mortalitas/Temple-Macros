@@ -21,7 +21,8 @@ You can use these macros in Mortal Online 2 to:
 **Setting Up**
 
 Make sure you extracted everything included in the zip file into a new folder.
-Before running, make sure you adjust all of the coordinates in the config.ini file with a text editor using the relative coordinates provided by AU3_Spy.exe (included in the zip) while Mortal Online 2 is the active window. The names of these variables are very straightforward.
+
+Before running, make sure you adjust all of the coordinates in the config.ini file with a text editor using the relative coordinates provided by **AU3_Spy.exe** (included in release zips or **AutoHotkey** installations) while Mortal Online 2 is the active window. The names of these variables are very straightforward.
 
 **Universal Controls**
 
