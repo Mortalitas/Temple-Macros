@@ -20,7 +20,7 @@ You can use these macros in Mortal Online 2 to:
 **To compile or run the source code\* versions of these macros, you will need:**
 * [AutoHotkey](https://www.autohotkey.com/)
 
-***\*Note that precompiled versions which do not require hotkey are available from the [releases page](https://github.com/Mortalitas/Temple-Macros/releases).***
+***\*Note that precompiled versions which do not require AutoHotkey are available from the [releases page](https://github.com/Mortalitas/Temple-Macros/releases).***
 
 **Setting Up**
 
