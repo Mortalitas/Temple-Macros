@@ -14,9 +14,13 @@ You can use these macros in Mortal Online 2 to:
   * Magic Schools / Mental Offense / Mental Focus / Mounted Magery
   * Sprinting / Breathing Technique / Combat Maneuvering
 
-**To use these macros, you will need the following:**
-* [AutoHotkey](https://www.autohotkey.com/)
+**To make use of these macros, you will need the following:**
 * Any decent text editor. I recommend [Notepad++](https://notepad-plus-plus.org/downloads/).
+
+**To compile or run the source code\* versions of these macros, you will need:**
+* [AutoHotkey](https://www.autohotkey.com/)
+
+***\*Note that precompiled versions which do not require hotkey are available from the [releases page](https://github.com/Mortalitas/Temple-Macros/releases).***
 
 **Setting Up**
 
