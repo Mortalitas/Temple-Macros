@@ -6,8 +6,6 @@ IniRead, invx, %A_WorkingDir%\config.ini, COORDINATES, InventoryTopLeftSlotX
 IniRead, invy, %A_WorkingDir%\config.ini, COORDINATES, InventoryTopLeftSlotY
 IniRead, diffx, %A_WorkingDir%\config.ini, COORDINATES, InventorySlotDiffX
 IniRead, diffy, %A_WorkingDir%\config.ini, COORDINATES, InventorySlotDiffY
-IniRead, delx, %A_WorkingDir%\config.ini, COORDINATES, DestroyItemX
-IniRead, dely, %A_WorkingDir%\config.ini, COORDINATES, DestroyItemY
 IniRead, delwx, %A_WorkingDir%\config.ini, COORDINATES, DestroyItemButtonX
 IniRead, delwy, %A_WorkingDir%\config.ini, COORDINATES, DestroyItemButtonY
 
@@ -15,6 +13,8 @@ clickdelay := 250
 
 F7::
     Send {LButton Up}
+    Sleep 500
+    Send {Alt Up}
     Reload
     return
 
@@ -28,14 +28,15 @@ F5::
         Sleep 61200
         Send {LButton Up}
         Sleep clickdelay
+        Send {Alt Down}
+        Sleep clickdelay
         invh := invx + (diffx * 2)
         invv := invy
         Loop 4 {
             MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
@@ -46,10 +47,9 @@ F5::
         invv := invy + diffy
         Loop 6 {
             MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
@@ -60,10 +60,9 @@ F5::
         invv := invy + (diffy * 2)
         Loop 6 {
             MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
@@ -74,10 +73,9 @@ F5::
         invv := invy + (diffy * 3)
         Loop 6 {
             MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
@@ -88,10 +86,9 @@ F5::
         invv := invy + (diffy * 4)
         Loop 6 {
            MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
@@ -102,16 +99,16 @@ F5::
         invv := invy + (diffy * 5)
         Loop 6 {
             MouseMove invh, invv
-            Send {LButton Down}
+            Send {RButton Down}
             Sleep clickdelay
-            MouseMove delx, dely
-            Send {LButton Up}
+            Send {RButton Up}
             Sleep clickdelay
             MouseMove delwx, delwy
             Send {LButton}
             invh := invh + diffx
             Sleep clickdelay
         }
+        Send {Alt Up}
         Sleep 1000
     }
     return
