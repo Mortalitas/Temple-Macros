@@ -8,9 +8,9 @@ F6::Pause
 F5::
     Loop {
         Loop 7 {
-            ControlSend, , q, ahk_class UnrealWindow
+            ControlSend, , e, ahk_class UnrealWindow
             Sleep charget
-            ControlSend, , q, ahk_class UnrealWindow
+            ControlSend, , e, ahk_class UnrealWindow
             Sleep releaset
         }
     }
