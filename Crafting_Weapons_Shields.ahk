@@ -24,12 +24,10 @@ F5::
     Loop {
         MouseMove craftx, crafty
         Sleep 500
-        Loop 33 {
-            Send {LButton Down}
-            Sleep 1800
-            Send {LButton Up}
-            Sleep 750
-        }
+        Send {LButton Down}
+        Sleep 59400
+        Send {LButton Up}
+        Sleep clickdelay
         Send {Alt Down}
         Sleep clickdelay
         invh := invx + (diffx * 3)
