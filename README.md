@@ -45,6 +45,7 @@ Note that any macros that do not require the Mortal Online 2 window to be active
 * **Archery** - Does not require the MO 2 window to be open at all times. Shoots 25 arrows with a shortbow. Can be tweaked for different bow timings in the **config.ini** file.
 * **Crafting_Bows_Armor** - Requires the MO 2 window to be open at all times. Crafts 34 items and then deletes them. **Never deletes the first two items on the left** in your inventory in the **top row** but **will regularly delete everything else**.
 * **Crafting_Weapons_Shields** - Requires the MO 2 window to be open at all times. Crafts 33 items and then deletes them. **Never deletes the first three items on the left** in your inventory in the **top row** but **will regularly delete everything else**.
+* **Feint** - Requires the MO 2 window to be open at all times. Holds a weapon swing while sprinting to level Feint Techniques.
 * **Gather** - Does not require the MO 2 window to be open at all times. Holds down the "r" key.
 * **Hit** - Does not require the MO 2 window to be open at all times.  Left clicks at regular intervals. Can be tweaked for different weapon timings in the **config.ini** file.
 * **Jump** - Does not require the MO 2 window to be open at all times. Presses the spacebar at regular intervals.
