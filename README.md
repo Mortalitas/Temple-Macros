@@ -10,6 +10,7 @@ You can use these macros in Mortal Online 2 to:
   * Archery / Mounted Archery / Aiming Technique / Marksmanship
   * Jumping
   * Melee Weapon Skills / Mounted Combat
+  * Feint Techniques
   * Riding / Controlled Riding / Swift Riding
   * Magic Schools / Mental Offense / Mental Focus / Mounted Magery
   * Sprinting / Breathing Technique / Combat Maneuvering
