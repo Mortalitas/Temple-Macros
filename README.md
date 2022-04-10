@@ -10,6 +10,7 @@ You can use these macros in Mortal Online 2 to:
   * Archery / Mounted Archery / Aiming Technique / Marksmanship
   * Jumping
   * Melee Weapon Skills / Mounted Combat
+  * Blocking / Blocking Endurance / Unarmed Blocking
   * Feint Techniques
   * Riding / Controlled Riding / Swift Riding
   * Magic Schools / Mental Offense / Mental Focus / Mounted Magery
@@ -44,6 +45,8 @@ Note that any macros that do not require the Mortal Online 2 window to be active
 **Macro-Specific Notes**
 
 * **Archery** - Does not require the MO 2 window to be open at all times. Shoots 25 arrows with a shortbow. Can be tweaked for different bow timings in the **config.ini** file.
+* **Block** - Does not require the MO 2 window to be open at all times. Right clicks at regular intervals.
+* **Block_Static** - Does not require the MO 2 window to be open at all times. Holds down right click.
 * **Crafting_Bows_Armor** - Requires the MO 2 window to be open at all times. Crafts 34 items and then deletes them. **Never deletes the first two items on the left** in your inventory in the **top row** but **will regularly delete everything else**.
 * **Crafting_Weapons_Shields** - Requires the MO 2 window to be open at all times. Crafts 33 items and then deletes them. **Never deletes the first three items on the left** in your inventory in the **top row** but **will regularly delete everything else**.
 * **Feint** - Requires the MO 2 window to be open at all times. Holds a weapon swing while sprinting to level Feint Techniques.
